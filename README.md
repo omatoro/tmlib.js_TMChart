@@ -2,7 +2,7 @@ tmlib.jsでChartを表示
 ========
 
 <br />
-<img href="https://raw.github.com/omatoro/tmlib.js_TMChart/master/image.png"></img>
+<img src="https://raw.github.com/omatoro/tmlib.js_TMChart/master/image.png"></img>
 <br />
 
 ##必要なもの
