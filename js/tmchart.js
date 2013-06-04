@@ -33,8 +33,8 @@
             this.canvas.clearColor(CHART_COLOR);
             // this.alpha = 0.0;
 
-            this.interaction.enabled = true;
-            this.interaction.setBoundingType("rect");
+            this.setInteractive(true);
+            this.setBoundingType("rect");
 
             // 引数の解析
             this._analyze(chart);

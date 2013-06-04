@@ -8,8 +8,8 @@
 
 	    init: function(width, data) {
 	        this.superInit(width, width);
-	        this.interaction.enabled = true;
-	        this.interaction.boundingType = "circle";
+	        this.setInteractive(true);
+	        this.boundingType = "circle";
 	        this._refresh();
 
 	        this.backgroundColor = "red";

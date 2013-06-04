@@ -28,8 +28,8 @@
 	        // 文字列の場所を決める
             label.x = label.x - this.width/2 + FONT_LEFT_PADDING; // 左端に寄せる
 
-	        this.interaction.enabled = true;
-	        this.interaction.boundingType = "rect";
+	        this.setInteractive(true);
+	        this.boundingType = "rect";
 	        this.alpha = 0;
 	        this.backgroundColor = "rgba(0, 0, 0, 0.0)";
 
